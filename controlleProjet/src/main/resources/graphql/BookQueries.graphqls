@@ -1,0 +1,6 @@
+type Query {
+
+    getBookByTitle(title: String!): BookDto
+    getBookById(id: ID!): BookDto
+    getAllBooks: [BookDto]
+}

@@ -1,0 +1,6 @@
+type Mutation {
+
+    saveBook(book: BookInput!): BookDto
+    deleteBook(id: ID!): Boolean
+    updateBook(id: ID!, book: BookInput!): BookDto
+}
